@@ -1,0 +1,116 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.bgimg {
+    position: absolute;
+}
+
+.top {
+    top: 0px;
+    left: 0px;
+}
+
+.bottom {
+    bottom: 0px;
+    right: 0px;
+}
+
+.container {
+    width: 90%;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.col {
+    flex: 1;
+    margin: 30px;
+}
+
+.card-col {
+    flex: 1;
+    margin: 30px;
+}
+
+h1 {
+    margin: 0px;
+    color: hsl(300, 43%, 22%);
+}
+
+.sub-info {
+    color: hsl(303, 10%, 53%);
+}
+
+.rating-box {
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: 600;
+    color: hsl(300, 43%, 22%);
+}
+
+.rating-box:nth-child(1) {
+    position: static;
+}
+
+.rating-box:nth-child(2) {
+    position: relative;
+    left: 50px;
+}
+
+.rating-box:nth-child(3) {
+    position: relative;
+    left: 100px;
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.card-col:nth-child(1) {
+    position: static;
+}
+
+.card-col:nth-child(2) {
+    position: relative;
+    top: 25px;
+}
+
+.card-col:nth-child(3) {
+    position: relative;
+    top: 50px;
+}
+
+.avatar {
+    float: left;
+    margin-right: 25px;
+    border-radius: 50%;
+    width: 70px;
+}
+
+.name {
+    color: #fff;
+    font-weight: bold;
+}
+
+.who {
+    color: hsl(333, 80%, 67%);
+}
+
+.comment {
+    color: #fff;
+    line-height: 1.5em;
+}
