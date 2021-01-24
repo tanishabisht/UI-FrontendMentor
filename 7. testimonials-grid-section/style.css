@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.quoteImg {
+    position: absolute;
+    height: 125px;
+    z-index: -1;
+    left: 500px;
+    top: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+p {
+    color: hsl(0, 0%, 70%);
+}
+
+h2 {
+    color: #fff;
+}
+
+.item {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 20px 1px hsla(217, 19%, 35%, 0.205);
+}
+
+.item1 {
+    background-color: hsl(263, 55%, 52%);
+    grid-column: span 2;
+    z-index: 1;
+}
+
+.item2{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.item3{
+    background-color: #fff;
+    grid-row: span 2;
+}
+
+.item3 h2 {
+    color: hsl(217, 19%, 35%);
+}
+
+.item3 .name {
+    color: hsl(217, 19%, 35%);
+}
+
+.item4{
+    background-color: #fff;
+}
+
+.item4 h2 {
+    color: hsl(217, 19%, 35%);
+}
+
+.item4 .name {
+    color: hsl(217, 19%, 35%);
+}
+
+.item5{
+    background-color: hsl(217, 19%, 35%);
+    grid-column: span 2;
+}
+
+
+.avatar {
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.name {
+    color: #fff;
+    margin: 2px;
+    font-size: 20px;
+}
+
+.designation {
+    color: hsl(0, 0%, 70%);
+    margin: 5px;
+    font-size: 15px;
+}
