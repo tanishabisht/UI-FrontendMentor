@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(229, 57%, 11%);
+    color: hsl(243, 100%, 93%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.bgimg {
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    height: 400px;
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.col {
+    background-color: hsl(228, 56%, 26%);
+    margin-left: 30px;
+    padding: 30px;
+    box-shadow: -1px 1px 30px 3px hsl(229, 57%, 11%);
+}
+
+.left {
+    flex: 3;
+    height: 130px;
+    border-radius: 10px 80px 10px 10px;
+}
+
+.right {
+    flex: 5;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.icon {
+    background-color: hsl(229, 57%, 11%);
+    margin: 6px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 10px;
+    height: 20px;
+    background-image: -webkit-linear-gradient(left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.range .left-align {
+    flex: 1;
+}
+
+.range .right-align {
+    flex: 1;
+    text-align: right;
+}
