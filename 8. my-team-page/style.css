@@ -1,0 +1,37 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_container {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.container {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    margin: 60px;
+}
+
+.col2 {
+    margin-top: 200px;
+}
+
+img {
+    width: 100%;
+}
+
+.name {
+    font-weight: 600;
+    margin: 0px;
+}
+
+.designation {
+    position: relative;
+    top: -215px;
+    right: -105px;
+    transform: rotateZ(90deg);
+}
