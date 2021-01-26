@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    color: hsl(201, 11%, 66%);
+}
+
+.bgimg {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+}
+
+.container {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;
+}
+
+.row.logos {
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+}
+
+.col.left {
+    flex: 3;
+}
+
+.col.right {
+    text-align: left;
+    flex: 1;
+    margin-left: -200px;
+}
+
+.desktopImg {
+    width: 1000px;
+    position: relative;
+    left: -250px;
+}
+
+h1, h2, h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+h3 {
+    line-height: 0.75em;
+}
+
+button {
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    border: 1px solid #eee;
+    color: #fff;
+    font-weight: 600;
+    margin: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);;
+}
+
+.buttons .left {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.buttons .left:hover {
+    background-color: hsl(170, 41%, 61%);
+}
+
+.buttons .right {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.buttons .right:hover {
+    background-color: hsl(234, 92%, 74%);
+}
+
+.footer {
+    background-color: #eee;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: hsl(210, 10%, 33%);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 75%;
+}
+
+.col.icons {
+    align-self: flex-end;
+}
+
+.fa {
+    margin: 5px;
+}
