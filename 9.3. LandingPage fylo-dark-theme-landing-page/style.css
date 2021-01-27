@@ -1,0 +1,271 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(217, 28%, 15%);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    padding: 10px;
+    width: 200px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: hsl(198, 60%, 50%);
+    font-weight: 600;
+    color: #fff;
+}
+
+button:hover {
+    background-color: hsl(198, 57%, 63%);
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    width: 405px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+a {
+    color: hsl(176, 68%, 64%);
+    text-decoration: none;
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+    padding: 5px;
+}
+
+
+
+
+
+/* ################ */
+/* ## NAVIGATION ## */
+/* ################ */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px;
+    margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding: 10px;
+    margin: 15px;
+}
+
+
+
+
+
+
+/* ############### */
+/* ## BG-COLORS ## */
+/* ############### */
+
+.introBg {
+    background-color: hsl(217, 28%, 15%);
+}
+
+.imgBg {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    width: 100%;
+}
+
+.mainBg {
+    background-color: hsl(218, 28%, 13%);
+}
+
+.footerBg {
+    background-color: hsl(216, 53%, 9%);
+}
+
+
+
+
+
+
+
+/* ############ */
+/* ## LAYOUT ## */
+/* ############ */
+
+.subcontainer-60 {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.subcontainer-70 {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    margin: 30px;
+    padding: 10px;
+}
+
+.col-1 {
+    flex: 1;
+    margin: 10px;
+}
+
+.col-4 {
+    flex: 3;
+    margin: 10px;
+    margin-right: 40px;
+}
+
+.col-3 {
+    flex: 2;
+    margin: 10px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.marginTop {
+    padding-top: 200px;
+}
+
+.marginBottom {    
+    padding-bottom: 300px;
+}
+
+
+
+
+
+/* ########### */
+/* ## CARDS ## */
+/* ########### */
+
+.col-card {
+    flex: 1;
+    padding: 10px;
+}
+
+.card {
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px hsla(217, 27%, 13%, 0.425);
+}
+
+.card img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.name, .designation {
+    line-height: 0.75em;
+    font-size: 12px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.big-card {
+    background-color: hsl(219, 30%, 18%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px hsla(217, 27%, 13%, 0.562);
+    position: absolute;
+    left: 400px;
+    bottom: -2600px;
+}
+
+
+
+
+
+/* ############ */
+/* ## FOOTER ## */
+/* ############ */
+
+.footer {
+    text-align: left;
+}
+
+
+
+
+
+/* ############ */
+/* ## IMAGES ## */
+/* ############ */
+
+.centreImg {
+    display: block;
+    margin: 20px auto;
+}
+
+.illustration {
+    width: 100%;
+}
+
+.arrow {
+    margin-left: 5px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.fa {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    width: 15px;
+    height: auto;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.fa:hover {
+    color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+    cursor: pointer;
+}
