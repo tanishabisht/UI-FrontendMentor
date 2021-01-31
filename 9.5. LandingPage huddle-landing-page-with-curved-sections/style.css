@@ -1,0 +1,177 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+h1, h2, .navbar {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/* ### NAVBAR ### */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+
+
+
+
+
+/* ### LAYOUT ### */
+.container-noFlex {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.container {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.container-70 {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.container-70 .col {
+    margin: 40px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    margin: 30px;
+    flex: 1;
+}
+
+.left-align-container {
+    text-align: left;
+    padding-left: 125px;
+}
+
+.footer {
+    color: #fff;
+    text-align: left;
+}
+
+
+
+
+
+/* ### COMMON ### */
+
+button {
+    padding: 15px;
+    border-radius: 30px;
+    border: 0px;
+    font-weight: 600;
+    box-shadow: 0px 2px 5px 1px hsla(192, 95%, 7%, 0.144);
+}
+
+button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: hsl(321, 87%, 85%);
+}
+
+.footerBtn {
+    width: 100px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: hsl(321, 100%, 78%);
+}
+
+.curveBtn {
+    width: 300px;
+    color: #fff;
+    background-color: hsl(321, 100%, 78%);
+}
+
+.navBtn {
+    width: 150px;
+    color: hsl(321, 100%, 78%);
+    border: 2px solid hsl(321, 100%, 78%);
+    background-color: #fff;
+}
+
+input {
+    border-radius: 5px;
+    padding: 15px;
+    width: 250px;
+    margin-right: 15px;
+    border: 0px;
+}
+
+.illustration {
+    width: 100%;
+}
+
+.large {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.small {
+    font-size: 15px;
+    margin: 0;
+}
+
+.icon {
+    width: 40px;
+}
+
+.icon-right {
+    margin-right: 15px;
+}
+
+.fa {
+    margin-right: 15px;
+}
+
+.fa:hover {
+    color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+
+
+
+
+/* ### BGIMGS ### */
+
+.bgImg {
+    position: relative;
+    left: -40px;
+    width: 103%;
+    height: auto;
+}
+
+.bgImgTop {
+    bottom: -6px;
+}
+
+.bgImgBottom {
+    top: 0px;
+}
+
+.bgBlue {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.bgDark {
+    background-color: hsl(192, 100%, 9%);
+}
